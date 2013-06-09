@@ -1,0 +1,26 @@
+<project>
+	<name>level editor</name>
+	<settings>
+		<bgColor>#404040</bgColor>
+		<defaultWidth>3072</defaultWidth>
+		<defaultHeight>768</defaultHeight>
+		<minWidth>32</minWidth>
+		<minHeight>32</minHeight>
+		<maxWidth>99999999</maxWidth>
+		<maxHeight>99999999</maxHeight>
+		<workingDirectory>assets</workingDirectory>
+	</settings>
+	
+	<tilesets>
+		<tileset name="point" image="BG level 4/1.png" tileWidth="32" tileHeight="32"/>
+	
+	</tilesets> 
+	
+	<layers>
+		<tiles name="wall" gridSize="32" drawGridSize="32"/>
+		
+		<grid name="solid" color="#FFFF6699" gridSize="48" drawGridSize="48" exportAsObjects="true" />
+		
+	</layers>
+	
+</project>
